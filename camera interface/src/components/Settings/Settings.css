@@ -1,0 +1,367 @@
+.settings	{
+	background: linear-gradient(to top, rgb(50, 45, 45) 0%, #FFFFFF);
+	width: 1865px;
+	height: 925px;
+
+	border: 20px groove grey;
+}
+
+.navigation_menu {
+	position: relative;
+	width: auto;
+	min-height: 60px;
+	border-style: ridge;
+	border-color: grey;
+	border-width: 10px;
+	padding: 10px;
+}
+
+.navigationButton	{
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.navigationButtonMouseEnter	{
+	background-color: DimGray;
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.logOut	{
+	background-color: Red;
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.logOutClicked	{
+	background-color: DarkRed;
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.settingsCommon	{
+	position: relative;
+	width: 1000px;
+	/* height: 775px; */
+	/* float: left; */
+	display: inline-block;
+
+}
+.settingsCommon:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.list_settings	{
+	position: relative;
+	list-style-type: none;
+	margin: 6.5px 0 6.5px 0;
+}
+/* персональные данные */
+.CommonPersonel	{
+	border: 10px ridge Grey;
+}
+.pPersonalData	{
+	position: relative;
+	width: auto;
+	height: 30px;
+	float: left;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+}
+.divPersonalData:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.pInput	{
+	position: relative;
+	width: 220px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+}
+.pInputBlue	{
+	position: relative;
+		width: 220px;
+	height: 30px;
+	float: right;
+	right: 35%;
+	top: -3px;
+	font-size: 20px;
+	color: Blue;
+	margin: 5px;
+}
+.inputDeviceName	{
+	position: relative;
+	width: 400px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+}
+.Div_InputDeviceName:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.inputMacAddr	{
+	position: relative;
+	width: 400px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+}
+.Div_InputMacAddr:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.inputCompany	{
+	position: relative;
+	width: 400px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+}
+.Div_InputCompany:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* блок настройки изображения */
+.CommonPicture	{
+	border: 10px ridge Grey;
+}
+.pPictureSettings	{
+	position: relative;
+	width: auto;
+	height: 30px;
+	float: left;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+}
+.divPictureSettings:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.Brighness	{
+	position: relative;
+	width: 220px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+}
+.Saturation	{
+	position: relative;
+	width: 220px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+}
+.Contrast	{
+	position: relative;
+	width: 220px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+}
+/* bloack after */
+.Div_Brightness:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.Div_Saturation:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.Div_Contrast:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+/* block after */
+/* блок настройки изображения */
+
+/* блок настройки потока */
+.CommonStream	{
+	border: 10px ridge Grey;
+}
+.pStreamSettings	{
+	position: relative;
+	width: auto;
+	height: 30px;
+	float: left;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+}
+.divStreamSettings:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.IDstreamSelect	{
+	position: relative;
+	margin: 0 15px 15px 15px;
+	font-size: 20px;
+}
+.ResolutionSelect	{
+	position: relative;
+	margin: 0 15px 15px 15px;
+	font-size: 20px;
+}
+.FrameInterval	{
+	position: relative;
+	float: left;
+	left: 14px;
+	top: -3px;
+	font-size: 20px;
+	width: 135px;
+}
+.Div_FrameInterval:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.Bitrate	{
+	position: relative;
+	float: left;
+	left: 14px;
+	top: -3px;
+	font-size: 20px;
+	width: 135px;
+}
+.Div_Bitrate:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.FPS_select	{
+	position: relative;
+	margin: 0 15px 15px 15px;
+	font-size: 20px;
+}
+/* блок настройки изображения */
+
+/* блок настроек тревоги */
+.settingsAlarm	{
+	position: relative;
+	/* left: -3.5%; */
+	float: right;
+	display: inline-block;
+	width: 844px;
+	height: 728px;
+	border: 10px ridge Grey;
+}
+.settingsAlarm:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.alarm_queue	{
+	top: 3px;
+	border: 2px solid Grey;
+}
+.alarm_queue *	{
+	margin: 7px 2px 7px 2px;
+	font-size: 20px;
+}
+.pAlarm	{
+	position: relative;
+	width: auto;
+	height: 30px;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+}
+.all_time_label	{
+	position: relative;
+	top: -2px;
+	height: 300px;
+	font-size: 22px;
+}
+.check_All_time	{
+width: 18px;
+height: 18px;
+}
+.QueueCheck	{
+	width: 18px;
+	height: 18px;
+}
+.QueueCheck_label	{
+	font-size: 20px;
+}
+
+.Div_Sensivity	{
+		position: relative;
+		top: -8px;
+}
+.Div_Sensivity:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+.pDetection	{
+	position: relative;
+	width: auto;
+	height: 30px;
+	font-size: 30px;
+	margin: 0 0 15px 0;
+}
+.Sensivity	{
+	position: relative;
+	width: 220px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+}
+.Threshold	{
+	position: relative;
+	width: 220px;
+	height: 30px;
+	float: left;
+	font-size: 20px;
+	margin: 5px;
+}
+.Div_Threshold	{
+	position: relative;
+	top: -30px;
+}
+.Div_Threshold:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.DetectionArea {
+	position: relative;
+	top: -55px;
+}
+
+/* блок настроек тревоги */
+
+
+.footer  {
+	font-size: 24px;
+	position: relative;
+	bottom: 1.5%;
+  background-color: #696969;
+  overflow: hidden;
+}

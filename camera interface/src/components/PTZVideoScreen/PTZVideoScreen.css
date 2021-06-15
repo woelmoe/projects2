@@ -1,0 +1,500 @@
+
+.PTZVideoScreen	{
+	background: linear-gradient(to top, rgb(50, 45, 45) 0%, #FFFFFF);
+	width: 1865px;
+	height: 925px;
+	border: 20px groove grey;
+}
+
+.navigation_menu {
+	position: relative;
+	width: auto;
+	min-height: 60px;
+	border-style: ridge;
+	border-color: grey;
+	border-width: 10px;
+	padding: 10px;
+}
+
+.navigationButton	{
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.navigationButtonMouseEnter	{
+	background-color: DimGray;
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.logOut	{
+	background-color: Red;
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.logOutClicked	{
+	background-color: DarkRed;
+	width: 200px;
+	min-height: 60px;
+	float: right;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+
+.object_list	{
+	position: relative;
+	list-style-type: none;
+	/* border: solid grey; */
+}
+
+.screenControlElements	{
+	margin: 0;
+		/* border-bottom: solid grey; */
+}
+.screenControlElements:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.camera_Screen img	{
+	position: relative;
+	width: 95%;
+}
+.dataPosition	{
+	position: absolute;
+	top: 60%;
+	left: 75%;
+	text-transform: uppercase;
+	color: white;
+}
+
+.streamSelect	{
+	position: relative;
+	float: left;
+	margin: 15px;
+	font-size: 20px;
+}
+.screenControlBtn	{
+	position: relative;
+	float: left;
+	width: 100px;
+	min-height: 40px;
+}
+.record_Off	{
+	position: relative;
+	float: left;
+	width: 100px;
+	min-height: 40px;
+}
+.record_On	{
+	position: relative;
+	float: left;
+	width: 100px;
+	min-height: 40px;
+	background-color: Red;
+}
+.camera_ScreenControls	{
+	position: relative;
+	float: left;
+	display: inline-block;
+	min-width: 1280px;
+	min-height: 744px;
+	/* border: solid grey; */
+}
+
+.ptzSettings	{
+	position: relative;
+	display: inline-block;
+	width: 470px;
+	height: 720px;
+	margin-left: 12px;
+	background: linear-gradient(to left, DimGray 5%, Grey);
+	border: 10px outset rgb(40,40,40);
+	border-radius: 4%;
+	border-top: 10px outset rgb(100,100,100);
+}
+
+.PTZ_initProgress	{
+	position: absolute;
+	top: 37%;
+	left: 7.5%;
+}
+.loading-bar	{
+	position: relative;
+	width: 400px;
+	height: 30px;
+	border-radius: 15px;
+	overflow: hidden;
+	border_bottom: 1px solid #ddd;
+	box-shadow: inset 0 1px 2px Grey, 0 -1px 1px #fff, 0 1px 0 #fff;
+}
+.percentage	{
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	right: 1px;
+	display: block;
+	height: 100%;
+	width: 1%;
+	border-radius: 15px;
+	background-color: Green;
+	background-size: 30px 30px;
+}
+
+.settings_list	{
+	position: relative;
+	list-style-type: none;
+}
+.camera_Controls	{
+	position: relative;
+}
+.camera_Controls:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ptzControls	{
+}
+/* Блок кнопок */
+.PTZ_buttons	{
+	position: relative;
+	left: 4.5%;
+	width: 300px;
+	height: 300px;
+}
+.PTZ_buttons img {
+	position:absolute;
+	left: 6.5%;
+	top: 	12%;
+	width: 72%;
+	border-radius: 100%;
+}
+
+.btn_up {
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-clip-path: polygon(16% 22%, 28% 13%, 44% 10%, 59% 14%, 70% 21%, 56% 35%, 48% 30%, 38% 30%, 30% 35%);
+	clip-path: polygon(16% 22%, 28% 13%, 44% 10%, 59% 14%, 70% 21%, 56% 35%, 48% 30%, 38% 30%, 30% 35%);
+}
+.btn_up_pointer {
+	cursor: pointer;
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	-webkit-clip-path: polygon(16% 22%, 28% 13%, 44% 10%, 59% 14%, 70% 21%, 56% 35%, 48% 30%, 38% 30%, 30% 35%);
+	clip-path: polygon(16% 22%, 28% 13%, 44% 10%, 59% 14%, 70% 21%, 56% 35%, 48% 30%, 38% 30%, 30% 35%);
+}
+.btn_left {
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  clip-path: polygon(15% 23%, 28% 36%, 24% 45%, 25% 54%, 30% 61%, 16% 74%, 7% 60%, 5% 45%, 8% 32%);
+  -webkit-clip-path: polygon(15% 23%, 28% 36%, 24% 45%, 25% 54%, 30% 61%, 16% 74%, 7% 60%, 5% 45%, 8% 32%);
+}
+.btn_left_pointer {
+	cursor: pointer;
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  clip-path: polygon(15% 23%, 28% 36%, 24% 45%, 25% 54%, 30% 61%, 16% 74%, 7% 60%, 5% 45%, 8% 32%);
+  -webkit-clip-path: polygon(15% 23%, 28% 36%, 24% 45%, 25% 54%, 30% 61%, 16% 74%, 7% 60%, 5% 45%, 8% 32%);
+}
+.btn_right {
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  clip-path: polygon(70% 23%, 57% 36%, 61% 45%, 60% 54%, 56% 61%, 69% 74%, 77% 62%, 80% 49%, 78% 34%);
+  -webkit-clip-path: polygon(70% 23%, 57% 36%, 61% 45%, 60% 54%, 56% 61%, 69% 74%, 77% 62%, 80% 49%, 78% 34%);
+}
+.btn_right_pointer {
+	cursor: pointer;
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  clip-path: polygon(70% 23%, 57% 36%, 61% 45%, 60% 54%, 56% 61%, 69% 74%, 77% 62%, 80% 49%, 78% 34%);
+  -webkit-clip-path: polygon(70% 23%, 57% 36%, 61% 45%, 60% 54%, 56% 61%, 69% 74%, 77% 62%, 80% 49%, 78% 34%);
+}
+.btn_bottom {
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  clip-path: polygon(68% 75%, 56% 82%, 44% 85%, 30% 83%, 18% 75%, 31% 63%, 39% 66%, 47% 66%, 54% 62%);
+  -webkit-clip-path: polygon(68% 75%, 56% 82%, 44% 85%, 30% 83%, 18% 75%, 31% 63%, 39% 66%, 47% 66%, 54% 62%);
+}
+.btn_bottom_pointer {
+	cursor: pointer;
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+  clip-path: polygon(68% 75%, 56% 82%, 44% 85%, 30% 83%, 18% 75%, 31% 63%, 39% 66%, 47% 66%, 54% 62%);
+  -webkit-clip-path: polygon(68% 75%, 56% 82%, 44% 85%, 30% 83%, 18% 75%, 31% 63%, 39% 66%, 47% 66%, 54% 62%);
+}
+.btn_ptz {
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+  clip-path: circle(16.3% at 43% 47%);
+  -webkit-clip-path: circle(16.3% at 43% 47%);
+}
+.btn_ptz_pointer {
+	cursor: pointer;
+	opacity: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+  clip-path: circle(16.3% at 43% 47%);
+  -webkit-clip-path: circle(16.3% at 43% 47%);
+}
+/* Блок кнопок конец */
+
+.PTZ_speed	{
+	position: relative;
+	margin-top: 30px;
+}
+
+.spanPTZMoveSpeed	{
+padding: 0 10px 0 10px;
+}
+.ptzMoveSpeed	{
+	width: 220px;
+	margin: 0px 0px 0px 0px;
+}
+.speed_minus	{
+	margin: 0;
+	height: 50px;
+}
+.speed_minus img	{
+	width: 10%;
+	margin: 0px 0px -10px 15px;
+	overflow: hidden;
+	padding: 0px;
+	border-radius: 50%;
+}
+.speed_plus img	{
+	width: 10%;
+	margin: 0px 15px -10px 0px;
+	overflow: hidden;
+	padding: 0px;
+	border-radius: 50%;
+}
+
+.ZoomFocus_list	{
+	position: relative;
+	list-style-type: none;
+	/* border-top-color: #dedede; */
+	padding: 25px 0px 0px 0px;
+}
+.zoom	{
+	position: relative;
+	width: auto;
+	margin: 50px 0 0 0;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align:middle;
+}
+.focus	{
+	position: relative;
+	width: auto;
+	margin: 50px 0 0 0;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align:middle;
+}
+.div_btn_minus	{
+	position: relative;
+	margin: 0;
+	width: 70px;
+	padding: 0 50px 0 0;
+	height: 100%;
+	overflow: hidden;
+	/* display: inline-block; */
+	float: left
+}
+.div_btn_plus	{
+	position: relative;
+	margin: 0;
+	width: 70px;
+	padding: 0 0 0 50px;
+	height: 100%;
+	overflow: hidden;
+	/* display: inline-block; */
+}
+
+.div_txt_zoom	{
+	height: 70px;
+	float: left;
+}
+.textZoom	{
+	font-size: 35pt;
+	color: #FFFFFF;
+	display: inline;
+}
+
+.div_txt_focus	{
+	height: 70px;
+	float: left;
+}
+.textFocus	{
+	font-size: 35pt;
+	color: #FFFFFF;
+	display: inline;
+
+/* ZOOM buttons MINUS group*/
+}
+.button_minus_zoom_off	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(50, 45, 45) 0%, #FFFFFF);
+	margin: 0 0 0 0px;
+}
+.button_minus_zoom_off	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+.button_minus_zoom_on	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(70, 60, 70) 0%, Grey);
+	margin: 0 0 0 0px;
+}
+.button_minus_zoom_on	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+
+/* FOCUS buttons MINUS group*/
+.button_minus_focus_off	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(50, 45, 45) 0%, #FFFFFF);
+	margin: 0 0 0 0px;
+}
+.button_minus_focus_off	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+.button_minus_focus_on	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(70, 60, 70) 0%, Grey);
+	margin: 0 0 0 0px;
+}
+.button_minus_focus_on	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+
+/* zoom buttons PLUS group*/
+.button_plus_zoom_off	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(50, 45, 45) 0%, #FFFFFF);
+	margin: 0px 80px 0px 0px;
+	display: inline;
+}
+.button_plus_zoom_off	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 50%;
+	border-style: none;
+}
+.button_plus_zoom_on	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(70, 60, 70) 0%, Grey);
+	margin: 0 0 0 0px;
+}
+.button_plus_zoom_on	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+
+/* focus buttons MINUS group*/
+.button_plus_focus_off	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(50, 45, 45) 0%, #FFFFFF);
+	margin: 0 0 0 0px;
+}
+.button_plus_focus_off	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+.button_plus_focus_on	{
+	border-radius: 60px;
+	background: linear-gradient(to top, rgb(70, 60, 70) 0%, Grey);
+	margin: 0 0 0 0px;
+}
+.button_plus_focus_on	img{
+	width: 50px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+	border-radius: 60px;
+	border-style: none;
+}
+/* end of buttons focus/zoom groups */
+
+.ZoomFocus_list:after	{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer  {
+	position: relative;
+	bottom: -2%;
+  background-color: #696969;
+  overflow: hidden;
+}
+
+.CrdntPosition	{
+	font-size: 20pt;
+}

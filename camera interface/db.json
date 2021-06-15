@@ -1,0 +1,142 @@
+{
+  "coordinates": [
+    {
+      "x": 994,
+      "y": 1762,
+      "id": 0
+    }
+  ],
+  "parameters": [
+    {
+      "moveSpeed": "6",
+      "zoom": 5,
+      "focus": 8,
+      "id": 0
+    }
+  ],
+  "settings": [
+    {
+      "deviceName": "any Camera",
+      "MAC_addr": "any Mac-addr",
+      "company": "any Company",
+      "id": 0
+    },
+    {
+      "Brightness": "83",
+      "Saturation": "38",
+      "Contrast": "54",
+      "id": 1
+    },
+    {
+      "IDstreamSelected": "Основной поток",
+      "ResolutionSelected": "1920x1080",
+      "SubResolutionSelected": "800x600",
+      "FrameInterval": "9",
+      "Bitrate": "7015",
+      "FPS_set": 22,
+      "id": 2
+    },
+    {
+      "Sensivity": "80",
+      "Threshold": "72",
+      "id": 3
+    }
+  ],
+  "DaysRadio": [
+    {
+      "DayPicked": "Thursday",
+      "id": 0
+    },
+    {
+      "isChecked_All_time": true,
+      "id": 1
+    }
+  ],
+  "QueueList": [
+    {
+      "isChecked_0_0": true,
+      "isChecked_0_1": true,
+      "isChecked_0_2": false,
+      "isChecked_1_0": false,
+      "isChecked_1_1": true,
+      "isChecked_1_2": false,
+      "isChecked_2_0": true,
+      "isChecked_2_1": false,
+      "isChecked_2_2": false,
+      "isChecked_3_0": false,
+      "isChecked_3_1": true,
+      "isChecked_3_2": false,
+      "isChecked_4_0": true,
+      "isChecked_4_1": false,
+      "isChecked_4_2": false,
+      "isChecked_5_0": false,
+      "isChecked_5_1": true,
+      "isChecked_5_2": false,
+      "isChecked_6_0": false,
+      "isChecked_6_1": false,
+      "isChecked_6_2": true,
+      "id": 0
+    },
+    {
+      "time_from_0_0": "03:08:06",
+      "time_to_0_0": "00:11:01",
+      "time_from_0_1": "00:12:01",
+      "time_to_0_1": "00:12:01",
+      "time_from_0_2": "00:01:10",
+      "time_to_0_2": "00:12:01",
+      "time_from_1_0": "00:12:01",
+      "time_to_1_0": "04:05:01",
+      "time_from_1_1": "00:03:01",
+      "time_to_1_1": "00:45:01",
+      "time_from_1_2": "00:00:45",
+      "time_to_1_2": "04:05:01",
+      "time_from_2_0": "00:08:01",
+      "time_to_2_0": "00:08:01",
+      "time_from_2_1": "08:00:01",
+      "time_to_2_1": "08:00:01",
+      "time_from_2_2": "00:00:08",
+      "time_to_2_2": "00:00:07",
+      "time_from_3_0": "00:00:08",
+      "time_to_3_0": "00:07:01",
+      "time_from_3_1": "00:08:01",
+      "time_to_3_1": "07:00:01",
+      "time_from_3_2": "08:00:01",
+      "time_to_3_2": "00:00:59",
+      "time_from_4_0": "00:45:01",
+      "time_to_4_0": "00:45:01",
+      "time_from_4_1": "04:05:01",
+      "time_to_4_1": "04:05:01",
+      "time_from_4_2": "00:00:45",
+      "time_to_4_2": "00:45:01",
+      "time_from_5_0": "00:07:07",
+      "time_to_5_0": "00:04:45",
+      "time_from_5_1": "07:00:01",
+      "time_to_5_1": "00:45:01",
+      "time_from_5_2": "00:45:01",
+      "time_to_5_2": "00:00:55",
+      "time_from_6_0": "00:45:01",
+      "time_to_6_0": "00:04:01",
+      "time_from_6_1": "04:04:01",
+      "time_to_6_1": "00:00:04",
+      "time_from_6_2": "00:00:04",
+      "time_to_6_2": "00:04:01",
+      "id": 1
+    }
+  ],
+  "routes": [
+    {
+      "naviReferences": [
+        {
+          "id": 0,
+          "title": "Просмотр",
+          "path": "PTZVideoScreen"
+        },
+        {
+          "id": 1,
+          "title": "Настройки",
+          "path": "Settings"
+        }
+      ]
+    }
+  ]
+}
