@@ -267,7 +267,7 @@
 	float: right;
 	display: inline-block;
 	width: 844px;
-	height: 728px;
+	height: 720px;
 	border: 10px ridge Grey;
 }
 .settingsAlarm:after	{
@@ -280,7 +280,7 @@
 	border: 2px solid Grey;
 }
 .alarm_queue *	{
-	margin: 7px 2px 7px 2px;
+	margin: 6.5px 2px 6.5px 2px;
 	font-size: 20px;
 }
 .pAlarm	{
