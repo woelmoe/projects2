@@ -8,7 +8,7 @@ npm install
 ```
 npm update
 ```
-### JSON server start
+### JSON server start from project's folder
 ```
 json-server --watch db.json
 ```
